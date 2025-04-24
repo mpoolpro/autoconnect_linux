@@ -26,6 +26,6 @@ This script helps you quickly set up the [XMRig](https://github.com/xmrig/xmrig)
 ### 1. Download and Run the Script
 
 ```bash
-curl -O https://raw.githubusercontent.com/mpoolpro/autoconnect/refs/heads/main/mpool_installer.sh
+curl -O https://raw.githubusercontent.com/mpoolpro/autoconnect_linux/refs/heads/main/mpool_installer.sh
 chmod +x mpool_installer.sh
 sudo ./mpool_installer.sh
