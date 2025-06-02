@@ -93,7 +93,7 @@ echo -e "${YELLOW}===================================================${NC}\n"
 
 sleep 7
 
-screen -S mpool_miner -dm ./xmrig -o pool.mpool.pro:4242 -u $wallet -p monero -a rx/0 -k --tls
+screen -S mpool_miner -dm ./xmrig -o world.mpool.pro:4242 -u $wallet -p monero -a rx/0 -k --tls
 screen -r mpool_miner
 
 echo -e "\n${BLUE}[!] Miner continues running in background.${NC}"
